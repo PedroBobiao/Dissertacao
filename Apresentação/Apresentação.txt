@@ -1,0 +1,18 @@
+LEVAR CABOS HDMI
+LEVAR ADAPTADORES
+LEVAR COMANDO
+
+O que é Wi-Fi? 
+Wi-Fi é uma tecnologia usada para conetar computadores, tablets, smartphones e outros dispositivos à internet.
+Wi-Fi é o sinal de rádio enviado (com frequência de 2.4 ou 5 ghz) de um router para um dispositivo próximo, que traduz o sinal para dados que podem ser vistos e utilizados. O dispositivo transmite um sinal de rádio de volta ao router, que se conecta à internet.
+
+O que é Bluetooth Low Energy?
+A diferença está em como distribuem os dados para economizar energia. O Bluetooth pode lidar com muitos dados, mas consome rapidamente a vida útil da bateria e custa muito mais. O Bluetooth Low Energy é usado para aplicações que não precisam de trocar grandes quantidades de dados e podem funcionar com bateria durante anos a um custo mais barato (2.4 ghz).
+
+Como funcionam os servidores?
+Servidor Web Assíncrono
+HTTP assíncrono e servidor WebSocket
+Esta é uma biblioteca TCP totalmente assíncrona, destinada a permitir um ambiente de rede multiconexão sem problemas para microcontroladores ESP32 da Espressif
+
+Como garantimos que os posts não repetem informações de scans?
+As filas são de apenas 1 elemento, esse elemento ou é overwritten (por um scan mais recente) ou é retirado por uma thread post que venha a seguir.

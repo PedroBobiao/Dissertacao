@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "9d4fd226-b577-4cb8-8c39-c887b8c30eb3",
+		"name": "PedroCosta - using ils.dsi.uminho.pt",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Insert tag reading (sample) - interface i2a",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "scanData",
+							"value": "{\n    \"tagName\": \"tagPedro\",\n    \"tagBSSID\": \"00:11:22:33:44:99\",\n    \"tagNetwork\": \"fakeOne\",\n    \"dataType\": \"BLE\",\n    \"scanMode\": \"auto\",\n    \"BLEData\": [\n        {\n            \"bssid\": \"03:6a:01:53:f1:1d\",\n            \"rssi\": -52,\n            \"name\": \"\"\n        },\n        {\n            \"bssid\": \"11:b8:98:54:3e:a5\",\n            \"rssi\": -87,\n            \"name\": \"\"\n        },\n        {\n            \"bssid\": \"76:56:ab:b6:09:f9\",\n            \"rssi\": -78,\n            \"name\": \"\"\n        },\n        {\n            \"bssid\": \"77:68:86:10:c1:f6\",\n            \"rssi\": -61,\n            \"name\": \"\"\n        },\n        {\n            \"bssid\": \"f5:77:cb:13:6f:7e\",\n            \"rssi\": -58,\n            \"name\": \"\"\n        }\n    ]\n}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://ils.dsi.uminho.pt/ar-ware/S02/i2a/i2aSamples.php",
+					"protocol": "http",
+					"host": [
+						"ils",
+						"dsi",
+						"uminho",
+						"pt"
+					],
+					"path": [
+						"ar-ware",
+						"S02",
+						"i2a",
+						"i2aSamples.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

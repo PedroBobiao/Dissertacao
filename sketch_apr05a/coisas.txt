@@ -1,0 +1,11 @@
+Documentar tudo feito so far
+
+Wifi scan while connected X
+Write memory persistent X
+threads
+datagrams
+bibliotecas wi-fi
+Bluetooth scan
+pedidos http POST
+
+Ler o artigo

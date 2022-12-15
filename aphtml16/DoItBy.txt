@@ -1,0 +1,15 @@
+#########################################
+UNSIGNED LONGS!
+#########################################
+Changes
+#########################################
+mailStor/mailTeses - HttpPostDelay&VTaskSuspend
+#########################################
+textoZoteroENG
+#########################################
+RepositoriUM Statement . MANA . JJ
+#########################################
+Methodology
+mention in the thesis that it was a type of trial and error project. We defined a thing and saw through tests if it was viable and functional
+if so, we used
+if not, we discarded
